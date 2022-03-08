@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="canvas.css">
+  <link rel="stylesheet" href="present.css">
+  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="parent">
+    <svg id="hearts" viewBox="-600 -400 1200 800" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <symbol id="heart" viewBox="-69 -16 138 138">
+          <path d="M0,12
+                 C 50,-30 110,50  0,120
+                 C-110,50 -50,-30 0,12z" />
+        </symbol>
+      </defs>
+    </svg>
+    <section class="above-fold">
+      <div class="wrap-present">
+        <div class="present-box" id="present">
+          <div class="present">
+            <div class="img-wrap" id="present-image">
+
+            </div>
+          </div>
+          <div class="side front"></div>
+          <div class="side back"></div>
+          <div class="side left"></div>
+          <div class="side right"></div>
+          <div class="side top">
+            <span class="to">
+              <span class="name" id="nametag">
+              </span>
+            </span>
+          </div>
+          <div class="side bottom"></div>
+        </div>
+      </div>
+      <p class="info-text">Click to Open</p>
+    </section>
+
+    <div id="card">
+      <h4>💘little coder💘</h4>
+
+      <img class="honey" src="đẹp quá.png">
+          
+      
+      <h4>8/3 Zui zẻ nguyn xinh gái! Thân hình càng ngày càng quyến rủ, mãi ngây thơ như bây giờ, đặc biệt ẵm được giải nhất học sinh giỏi văn tỉnh! Cuối cùng <3 Nguyn.💘</h4>
+    </div>
+
+  </div>
+</body>
+<script src="canvas.js"></script>
+<script src="present.js"></script>
+
+</html>
